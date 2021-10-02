@@ -1,0 +1,28 @@
+@import 'bases/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import 'bases/variables';
+@import 'bases/mixins';
+@import 'bases/globales';
+@import 'bases/utilidades';
+
+div {
+  width: 95%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 1rem 10rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
